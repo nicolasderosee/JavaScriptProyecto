@@ -1,0 +1,9 @@
+[
+   {"id":1,"name":"Sweet Otter Cake Batter Blend","price":700,"img":"img/SweetOtter.webp","quantity":1},
+   {"id":2,"name":"Social Dog Blend - Coffee Bag","price":500,"img":"img/SocialDog.webp","quantity":1},
+   {"id":3,"name":"Careless Cat Blend - Coffee Bag","price":500,"img":"img/CarelessCat.webp","quantity":1},
+   {"id":4,"name":"Night Owl Blend - Coffee Bag","price":500,"img":"img/NightOwl.webp","quantity":1},
+   {"id":5,"name":"Fluffy Lamb Vanilla Blend","price":700,"img":"img/FluffyLamb.webp","quantity":1},  
+   {"id":6,"name":"Family Blend - Coffee Bag","price":1000,"img":"img/FamilyBlend.webp","quantity":1}
+]
+
