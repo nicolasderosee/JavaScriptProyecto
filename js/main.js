@@ -114,9 +114,32 @@ const deleteFromCart = (id) => {
 
 //Función que vacía todo el carrito
 const clearCart = document.getElementById("clearCart");
+//clearCart.addEventListener("click", () => {
+//    deleteAll();
+//})
+
 clearCart.addEventListener("click", () => {
-    deleteAll();
+    Swal.fire({
+        title: "Are you sure you want to delete all the items?",
+        icon: "warning",
+        confirmButtonText: "Confirm",
+        showCancelButton: "true",
+        cancelButtonText: "Cancel",
+        cancelButtonColor: "#f04b6e",
+        confirmButtonColor: "#f04b6e"   
+    }).then((result)=> {
+        if(result.isConfirmed){
+            deleteAll();
+            Swal.fire({
+                title:"Deleted from cart",
+                icon:"Succes",
+                confirmButtonText:"Confirm",
+                confirmButtonColor: "#f04b6e"   
+            })
+        }
+    })
 })
+
 
 //Función para eliminar todo el carrito
 const deleteAll = () => {
@@ -135,3 +158,19 @@ const totalCalculate = () => {
     })
     total.innerHTML = ` $${totalPurchase}`;
 }
+
+setTimeout(() =>{
+    Swal.fire({
+        title: 'Subscribe to our newsletter for secret recipes and 10% of your first order!',
+        color:'#ffffff',
+        imageUrl: 'img/figure-social-dog.webp',
+        imageWidth: 250,
+        imageHeight: 200,
+        imageAlt: 'chamberlain dog',
+        background: '#f04b6e',
+        confirmButtonText: "Suscribe",
+        confirmButtonColor: "#1c5e0d",
+        showCancelButton: "true",
+        cancelButtonColor: "#1c5e0d"
+      })
+},3000)

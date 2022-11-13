@@ -9,8 +9,23 @@ h1{
     font-family: 'Courgette', cursive;
     font-size: 3.3rem;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     color:rgb(18, 116, 18);
+}
+
+.divText{
+    position: absolute;
+    left: 85px;
+    top: 400px;
+    color: #ffffff;
+}
+
+.textShop{
+    font-size: 4.5rem;
+}
+
+.pShop{
+    font-size: 2.5rem;
 }
 
 .imgProducts {
@@ -60,4 +75,83 @@ a{
     font-size: 1.5rem;
     background-color: #730920;
     padding: 10px;
+}
+
+.titleProducts{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 2.5rem;
+}
+
+.pProducts{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.footer{
+    width: 100%;
+    background: #a5d2eb;
+    height: auto;
+    padding: 40px;
+    font-family: "Space Mono", monospace;
+    text-align: center;
+}
+
+.footerContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials{
+    display: inline-block;
+    color: #000000;
+}
+
+.titleSection{
+    font-size: 1.5rem;
+}
+
+.pFooter{
+    font-size: 0.8rem;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .divText{
+        position: absolute;
+        left: 20px;
+        top: 340px;
+        color: #ffffff;
+    }
+    
+    .textShop{
+        font-size: 2rem;
+    }
+    
+    .pShop{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .divText{
+        position: absolute;
+        left: 40px;
+        top: 300px;
+        color: #ffffff;
+    }
+    
+    .textShop{
+        font-size: 2.5rem;
+    }
+    
+    .pShop{
+        font-size: 1.5rem;
+    }
 }

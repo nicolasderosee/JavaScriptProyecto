@@ -4,6 +4,8 @@
    {"id":3,"name":"Careless Cat Blend - Coffee Bag","price":500,"img":"img/CarelessCat.webp","quantity":1},
    {"id":4,"name":"Night Owl Blend - Coffee Bag","price":500,"img":"img/NightOwl.webp","quantity":1},
    {"id":5,"name":"Fluffy Lamb Vanilla Blend","price":700,"img":"img/FluffyLamb.webp","quantity":1},  
-   {"id":6,"name":"Family Blend - Coffee Bag","price":1000,"img":"img/FamilyBlend.webp","quantity":1}
+   {"id":6,"name":"Family Blend - Coffee Bag","price":1000,"img":"img/FamilyBlend.webp","quantity":1},
+   {"id":7,"name":"Clever Cardinal - Mocha Bag","price":600,"img":"img/cleverCardinal.webp","quantity":1},
+   {"id":8,"name":"Cocoa Grizzly - Chocolate Bag","price":600,"img":"img/cocoaGrizzly.webp","quantity":1}
 ]
 
